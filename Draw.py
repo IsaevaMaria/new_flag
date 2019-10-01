@@ -14,6 +14,11 @@ def draw():
     rect_point = [[50, 30], [200, 50]]
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
+    rect_color = pygame.Color('blue')
+    rect_width = 0
+    rect_point = [[50, 70], [200, 50]]
+    pygame.draw.rect(screen, rect_color, rect_point, rect_width)
+
 
 draw()
 while pygame.event.wait().type != pygame.QUIT:
